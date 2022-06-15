@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kameron</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+    <header>
+        <nav class="nav-top">
+            <div>
+                <h1 class="logo">Welcome</h1>
+            </div>
+            <div>
+                <button id="toggle" type="button" class="nav-top__btn nav-top__btn__menu nav-top__btn__menu--dark"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <nav id="nav-side" class="nav-side nav-side--hidden">
+            <div class="nav-side__list">
+                <h1 class="logo  logo__side-nav">Welcome</h1>
+                <ul class="nav-side__ul">
+                    <li class="nav-side__li"><a href="#home" id="home-link" class="nav-side__a"><i class="fas fa-house"></i><span class="side-nav__link-text">Home</span></a></li>
+                    <li class="nav-side__li"><a href="#about" id="about-link" class="nav-side__a"><i class="fa-solid fa-circle-user"></i><span class="side-nav__link-text">About</span></a></li>
+                    <li class="nav-side__li"><a href="#service" id="service-link" class="nav-side__a"><i class="fa-solid fa-screwdriver-wrench"></i><span class="side-nav__link-text">Service</span></a></li>
+                    <li class="nav-side__li"><a href="#portfolio" id="portfolio-link" class="nav-side__a"><i class="fa-solid fa-address-book"></i><span class="side-nav__link-text">Portfolio</span></a></li>
+                    <li class="nav-side__li"><a href="#contact" id="contact-link" class="nav-side__a"><i class="fa-solid fa-envelope"></i><span class="side-nav__link-text">Contact</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-side__contact">
+                <div class="nav-side__contact__img-container">
+                    <img class="nav-side__contact__img" src="./images/me.jpg" alt="">
+                </div>
+                <div class="nav-side__contact__txt">
+                    <h5 class="nav-side__contact__txt-header">Kameron</h5>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ### HOME ### -->
+    <main class="main">
+        <section id="home" class="section-home section-dark section">
+            <div class="home__image-container">
+                <img class="home__image" src="./images/me-black-white.png" alt="my image">
+            </div>
+            <div>
+                <h5 class="home__intro-txt">
+                    Hello, I'm Kameron
+                </h5>
+            </div>
+            <div class="home__animated-text">
+                <div class="animated-text__static">
+                    I'm a
+                </div>
+                <ul class="animated-text__dinamic">
+                    <li ><span class="animated-text__span">Developer</span></li>
+                    <li ><span class="animated-text__span">Coding Fan</span></li>
+                    <li><span class="animated-text__span">Avid Learner</span></li>
+                </ul>
+            </div>
+            <div class="home__self-desc">
+                <p>I'm a freelancer Front-End React Developer based in Turkey, over 2 years of professional expirience.</p> 
+            </div>
+            <div class="home__social-media-icons">
+                <ul class="home__icons-ul">
+                    <li><a target="_blank" class="home__icons-a" href="https://twitter.com/TurnevKameron"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a target="_blank" class="home__icons-a" href="https://codepen.io/kameronmazuda"><i class="fa-brands fa-codepen"></i></a></li>
+                    <li><a target="_blank" class="home__icons-a" href="https://github.com/kameronmazuda"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a target="_blank" class="home__icons-a" href="https://dribbble.com/kameronmazuda"><i class="fas fa-basketball"></i></a></li>
+                    <li><a target="_blank" class="home__icons-a" href="https://www.linkedin.com/in/kameron-hakimov-7a3216242/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- ### ABOUT ### -->
+        
+        <section id="about" class="about-section section">
+            <h2 class="section__header-txt">About Me</h2>
+            <div class="about__main">
+                <div class="about__hero">
+                    <img class="about__hero-img" src="./images/me-2.png" alt="my image">
+                    <div class="about__expirience-circle">
+                        <h5 class="expirience-circle__year">2 Years</h5>
+                        <p class="expirience-circle__txt">of expirience</p>
+                    </div>
+                </div>
+                <article class="about__info">
+                    <div class="info">
+                        <h5 class="info__top">Hi, I'm <strong>Kameron</strong></h5>
+                        <p>I'm a Freelancer Front-end Developer with over 6 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people.</p>
+                    </div>
+                    <div class="info">
+                        <h5 class="info__top"><strong>What is my skill level?</strong></h5>
+                        <p>My skills are JavaScript and React. Also any editing tool that you can name. I've never stopped learning and evolving.</p>    
+                    </div>
+                    <div class="skills__diagram">
+                        <div class="skills__skill-bar-container">
+                            <p class="skill-bar__label">React</p>
+                            <div class="skill-bar">
+                                <div class="skill-bar__inner skill-bar__inner--react"></div>
+                            </div>
+                        </div>
+                        <div class="skills__skill-bar-container">
+                            <p class="skill-bar__label">Python</p>
+                            <div class="skill-bar">
+                                <div class="skill-bar__inner skill-bar__inner--python"></div>
+                            </div>
+                        </div>
+                        <div class="skills__skill-bar-container">
+                            <p class="skill-bar__label">PHP</p>
+                            <div class="skill-bar">
+                                <div class="skill-bar__inner skill-bar__inner--php"></div>
+                            </div>
+                        </div>
+                        <div class="skills__skill-bar-container">
+                            <p class="skill-bar__label skill-bar__label--node">Node.js</p>
+                            <div class="skill-bar">
+                                <div class="skill-bar__inner skill-bar__inner--node"></div>
+                            </div>
+                        </div>
+                        <div class="skills__skill-bar-container">
+                            <p class="skill-bar__label">mySQL</p>
+                            <div class="skill-bar">
+                                <div class="skill-bar__inner skill-bar__inner--mySQL"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ### services ### -->
+
+        <section id="service" class="services-section section">
+
+            <div class="section__header">
+                <h2 class="section__header-txt">What I Do</h2>
+                <p class="header-txt__desc">I develop UI/UX and Back-End.</p>
+            </div>
+            <div class="services-container">
+                <div class="service">
+                    <div class="servive__image-container">
+                        <img class="servive__image" src="./images/adaptive-layout-pngrepo-com.png" alt="computer and smartphone">
+                    </div>
+                    <div class="servive__desc-txt">
+                        <h4 class="service-title">UI/UX</h4>
+                        <a class="service-desc pop-up__open-btn"><span class="service-desc__link-txt">Learn More</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                        
+                        <!-- @@@@@@@ POP-UPS @@@@@@@@ -->
+                        <div id="pop-up-ui-ux" class="pop-up">
+                            <a class="pop-up__close-btn"><i class="fas fa-times"></i></a>
+                            <div class="pop-up__thumbnail">
+                                <img src="./images/ui-design.png" alt="ui design process">
+                            </div>
+                            <div class="pop-up__txt">
+                                <h4 class="pop-up__h4">What is UI Design?</h4>
+                                <p class="pop-up__p">The “UI” in UI design stands for “user interface.” The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions, interface animations and every single micro-interaction. Any sort of visual element, interaction, or animation must all be designed.</p>
+                                <p class="pop-up__p">This job falls to UI designers. They decide what the application is going to look like. They have to choose color schemes and button shapes — the width of lines and the fonts used for text. UI designers create the look and feel of an application’s user interface.</p>
+                                <h4 class="pop-up__h4">What is UX Design?</h4>
+                                <p class="pop-up__p">“UX” stands for “user experience.” A user’s experience of the app is determined by how they interact with it. Is the experience smooth and intuitive or clunky and confusing? Does navigating the app feel logical or does it feel arbitrary? Does interacting with the app give people the sense that they’re efficiently accomplishing the tasks they set out to achieve or does it feel like a struggle? User experience is determined by how easy or difficult it is to interact with the user interface elements that the UI designers have created.</p>
+                                <p class="pop-up__p">So UX designers are also concerned with an application’s user interface, and this is why people get confused about the difference between the two. But whereas UI designers are tasked with deciding how the user interface will look, UX designers are in charge of determining how the user interface operates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="servive__image-container">
+                        <img class="servive__image" src="./images/data-pngrepo-com.png" alt="stack">
+                    </div>
+                    <div class="servive__desc-txt">
+                        <h4 class="service-title">Back-End Development</h4>
+                        <a class="service-desc pop-up__open-btn"><span class="service-desc__link-txt">Learn More</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                    
+                        <!-- @@@@@@@ POP-UPS @@@@@@@@ -->
+                        <div class="pop-up" id="pop-up-backend">
+                            <a class="pop-up__close-btn"><i class="fas fa-times"></i></a>
+                            <div class="pop-up__thumbnail">
+                                <img src="./images/database.png" alt="database image">
+                            </div>
+                            <div class="pop-up__txt">
+                                <h4 class="pop-up__h4">What is Back-End</h4>
+                                <p class="pop-up__p">The back end refers to parts of a computer application or a program's code that allow it to operate and that cannot be accessed by a user. Most data and operating syntax are stored and accessed in the back end of a computer system. Typically the code is comprised of one or more programming languages. The back end is also called the data access layer of software or hardware and includes any functionality that needs to be accessed and navigated to by digital means.</p>
+                                <p class="pop-up__p">Concepts and components that focus on the front end of a system include:</p>
+                                <ul class="pop-up__ul">
+                                    <li class="pop-up__li">Programming and scripting languages like PHP, Python and C#.</li>
+                                    <li class="pop-up__li">Automated testing frameworks.</li>
+                                    <li class="pop-up__li">Network scalability and availability.</li>
+                                    <li class="pop-up__li">Database management and data transformation.</li>
+                                    <li class="pop-up__li">Cybersecurity and data backup practices.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ### PORTFOLIO ### -->
+
+        <section id="portfolio" class="portfolio-section section">
+            <div class="section__header">
+                <h2 class="section__header-txt">Portfolio</h2>
+            </div>
+            <!-- grid -->
+            <div class="portfolio-grid">
+                <!-- single box -->
+                <article class="portfolio-box portfolio-box--left">
+                    <div class="portfolio-box__thumbnail">
+                        <img class="portfolio__left-img" src="./images/Ingridients API.png" alt="screenshot of the app">
+                    </div>
+                    <div class="portfolio-box__txt">
+                        <div class="potfolio-box__desc">   
+                            <h4 class="desc__title">Ingridients App</h4>
+                            <p class="desc-p">Ingridients application generates mealls for an ingridient a user enters.
+                            This is a very usefull application, but due to it being relatively simle app I daren't to put on the web.
+                            </p>
+                        </div>
+                            <a target="_blank" href="./apps/Food Recipe App using API/index.html" class="portfolio-box__link"><span class="service-desc__link-txt">Open</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <!-- single box end -->
+                <!-- single box -->
+                <article class="portfolio-box portfolio-box--right">
+                    <div class="potfolio-box__thumbnail">
+                        <img src="./images/Geolocation Ap.png" alt="image of map">
+                    </div>
+                    <div class="portfolio-box__txt">
+                        <div class="potfolio-box__desc">
+                            <h4 class="desc__title">Geolocation App</h4>
+                            <p class="desc-p">This App can track anything in the world that has coordinates.
+                            Right now I configured it to track location of ISS.    
+                            </p>
+                        </div>
+                        <a target="_blank" href="./apps/leaflet ISS Geolocation/index.html" class="portfolio-box__link"><span class="service-desc__link-txt">Open</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <!-- single box end -->
+                <!-- single box -->
+                <article class="portfolio-box portfolio-box--left">
+                    <div class="potfolio-box__thumbnail">
+                        <img class="portfolio__left-img" src="./images/spiral.png" alt="">
+                    </div>
+                    <div class="portfolio-box__txt">
+                        <div class="potfolio-box__desc">
+                            <h4 class="desc__title">Prime Spiral</h4>
+                            <p class="desc-p">I love to have fun with coding, and this is an example of my little animation using JavaScript.</p>
+                        </div>
+                        <a target="_blank" href="./apps/spiral-3d/index.html" class="portfolio-box__link"><span class="service-desc__link-txt">Open</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <!-- single box end -->
+                <!-- single box -->
+                <article class="portfolio-box portfolio-box--right">
+                    <div class="potfolio-box__thumbnail">
+                        <img  src="./images/ray-casting.png" alt="">
+                    </div>
+                    <div class="portfolio-box__txt">
+                        <div class="potfolio-box__desc">
+                            <h4 class="desc__title">Ray Casting</h4>
+                            <p class="desc-p">3D space visualisation using ray casting technique. Very interesting and refreshing project.<b> (on keyboard only)</b></p>
+                        </div>
+                        <a target="_blank" href="./apps/ray-casting/index.html" class="portfolio-box__link"><span class="service-desc__link-txt">Open</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <!-- single box end -->
+            </div>
+        </section>
+
+        <!-- ### CONTACT ### -->
+
+        <section id="contact" class="contact-section section-dark section">
+            <div class="section__header">
+                <h2 class="section__header-txt">Contact</h2>
+            </div>
+
+            <div class="contact-box contact-box__email">
+                <div class="contact-thumbnail">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-txt">
+                    <h5 class="contact-txt__title">Email</h5>
+                    <p class="contact-txt__body"><a href="mailto:kameronmazuda@gmail.com" class="contact__email-link">kameronmazuda@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                </div>
+            </div>
+
+            <div class="contact-box contact-box__address">
+                <div class="contact-thumbnail">
+                    <i class="fas fa-location-dot"></i>
+                </div>
+                <div class="contact-txt">
+                    <h5 class="contact-txt__title">Location</h5>
+                    <p class="contact-txt__body">Turkey, Istanbul</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
